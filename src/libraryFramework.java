@@ -1,8 +1,6 @@
-//Khalid Abouelrous
-//Grade: 100/100, all requirements met, program works as intended, comments given in code, self grade is given.
 
 import java.util.*;
-public class BookAppAbouelrous {
+public class libraryFramework{
 }
 class Book implements Comparable
 {
@@ -247,11 +245,11 @@ class YourDriver
          Scanner kb = new Scanner(System.in);
          BookStore myStore = new BookStore();
          myStore.add("Egypt","Salah",19.52,"19222011");
-         myStore.add("Ramadan","Khalid",20.22,"1443");
+         myStore.add("Senegal","Mane",20.22,"1443");
          myStore.add("yay","woo",100,"123145");
          myStore.add("Sac State","Hornet",21,"0987");
          myStore.add("Bees", "Honey",15,"5748290");
-         myStore.add("Computer Science","Khalid",1000,"10982374");
+         myStore.add("Computer Science","Java Python",1000,"10982374");
          boolean b = true;
          while(b) {
             System.out.println("Enter 1 to sort based on the title");
